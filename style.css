@@ -9,6 +9,13 @@ body{
 .logo-main{
     font-family: 'canterbury';  
 }
+.logo-small{
+    font-size: 23px !important;
+}
+nav ul li a{
+    font-size: 18px;
+
+}
 .slider li div img {
 
     width: 250px !important;
@@ -28,4 +35,7 @@ body{
         display: none;
     }
     
+}
+.card-content p{
+    font-size: 2em;
 }
