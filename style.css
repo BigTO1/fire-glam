@@ -7,11 +7,13 @@ body{
     src: url(fonts/old-english-five.regular.ttf);
 }
 .logo-main{
-    font-family: 'canterbury';  
+    font-family: 'canterbury'; 
+   font-size: 2vmax !important;
 }
-.logo-small{
-    font-size: 23px !important;
+.fire-text{
+    font-size: 4vmax;
 }
+
 nav ul li a{
     font-size: 18px;
 
@@ -34,8 +36,25 @@ nav ul li a{
     .hide-img-second{
         display: none;
     }
+
     
 }
 .card-content p{
-    font-size: 2em;
+    font-size: 2vmax;
 }
+.servicios-container{
+    margin: 150px auto;
+}
+.dropdown-content li{
+    margin: 0 auto !important;
+}
+.dropdown-content li img{
+    width: 60% ;
+}
+
+a.dropdown-trigger{
+    font-size: 4vmin;
+    width: 80%;    
+    margin: 5px 0;
+}
+
