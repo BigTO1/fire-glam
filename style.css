@@ -1,0 +1,31 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@font-face {
+    font-family: 'canterbury';
+    src: url(fonts/old-english-five.regular.ttf);
+}
+.logo-main{
+    font-family: 'canterbury';  
+}
+.slider li div img {
+
+    width: 250px !important;
+     height: 250px !important; 
+     margin: 0 50px !important;
+}
+@media screen and (max-width:1079px) {
+
+    .hide-img-first{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:724px) {
+
+    .hide-img-second{
+        display: none;
+    }
+    
+}

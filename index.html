@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/materialize.min.css">
     <title>Fire & Glam</title>
 </head>
@@ -30,12 +30,53 @@
             </div>            
         </nav>
     </div>
+    <div>
+        <div class="row">
+            <div class="col s12 pink lighten-4">
+               <h2 class="center">En <span class="logo-main">fire & glam</span> nos preocupamos por...</h2>                
+            </div>
+            <div class="col s12">
+                <div class="">
+                    <div class="slider">
+                        <ul class="slides transparent">
+                            <li>
+                                <div class="center">
+                                     <h3 class="">Tus pestañas</h3>                                     
+                                     <img class="circle responsive-img hide-img-second"  src="https://scontent.fmex1-1.fna.fbcdn.net/v/t39.30808-6/295327555_178929511192388_8831329766557465868_n.jpg?stp=dst-jpg_p600x600&_nc_cat=102&ccb=1-7&_nc_sid=a26aad&_nc_ohc=HnsfEzGeYCkAX-4JuJD&_nc_ht=scontent.fmex1-1.fna&oh=00_AfBho2u6DPQU0ScSvgrBlqg70G50en__Xf9DqS7xxd9PrA&oe=63637DA7" alt="">
+                                     <img class="circle responsive-img hide-img-first "  src="https://scontent.fmex1-5.fna.fbcdn.net/v/t39.30808-6/289706651_172947748457231_6161872655060618611_n.jpg?stp=dst-jpg_p600x600&_nc_cat=101&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TOGzamW3SbMAX80w8uP&tn=ACY7VD4uDkytpztC&_nc_ht=scontent.fmex1-5.fna&oh=00_AfDTM-wffBMOM8u6Jh1wqJcuTkoSJ9dgrrz4BMFvuCC4iA&oe=63647710" alt="">                                     
+                                     <img class="circle responsive-img"  src="https://scontent.fmex1-5.fna.fbcdn.net/v/t39.30808-6/308456716_487545249945777_2962226684693846680_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=zOaueEIT4bUAX94tnlh&_nc_ht=scontent.fmex1-5.fna&oh=00_AfBZ_HHyjTDL0UVI_pyptTyyDUqyMt4ZoFmxJ03YLD_dnw&oe=6364F105" alt="">
+                                </div>                               
+                            </li>
+                            <li>
+                                <div class="center">
+                                    <h3>Tus cejas</h3>
+                                    <img class="circle responsive-img "  src="https://scontent.fmex1-2.fna.fbcdn.net/v/t39.30808-6/277986649_157265230025483_1820146821010712606_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ocSJw1qZm1AAX9L1lqi&_nc_ht=scontent.fmex1-2.fna&oh=00_AfBeCf3coOCNGQ5hEY3L1Pa1wkpxUCf7SLSslOEze_baAQ&oe=63633708" alt="">
+                                    <img class="circle responsive-img hide-img-second"  src="https://scontent.fmex1-2.fna.fbcdn.net/v/t39.30808-6/273749940_146732167745456_8334559002445250948_n.jpg?stp=dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=da31f3&_nc_ohc=FGYj4sg73msAX8G-FEl&tn=ACY7VD4uDkytpztC&_nc_ht=scontent.fmex1-2.fna&oh=00_AfA_1W89-5lK13e9GSNMCB0gakQm6nB3GZlotQ2jl1h9UQ&oe=6363E2FF" alt="">
+                                    <img class="circle responsive-img hide-img-first"  src="https://scontent.fmex1-1.fna.fbcdn.net/v/t39.30808-6/296118921_180018847750121_6268929304885833085_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=7U6glS--2dwAX9rNxge&tn=ACY7VD4uDkytpztC&_nc_ht=scontent.fmex1-1.fna&oh=00_AfDB3jzXEBP_wuGmMFeLDo-VMzvzn5huBZfWlaDbrim11w&oe=63633379" alt="">                          
+                                </div>
+                            </li>
+                            <li>
+                                <div class="center">
+                                    <h3 style="margin-top:100px ; font-size: 6em;">Tu belleza</h3>
+                                    <i class="material-icons pink-text" style="font-size: 6em;">favorite</i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script type="text/javascript" src="js/materialize.min.js"></script> 
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            M.AutoInit();
-
-        });</script>             
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit();
+        });
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, {indicators:false,interval:2500});
+        });
+</script>             
 </body>
 </html>
