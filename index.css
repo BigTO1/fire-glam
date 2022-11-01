@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'canterbury';
+    src: url(fonts/old-english-five.regular.ttf);
+}
+.logo-main{
+    font-family: 'canterbury';
+    
+}
+.carousel-item{
+
+    width: 550px !important;
+    height: 550px !important;
+}
+.carousel{
+    height: 550px !important;
+
+}
