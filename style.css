@@ -51,9 +51,7 @@ header{
 .card-content p{
     font-size: 2vmax;
 }
-/* #servicios-container{
-    margin: 150px auto;
-} */
+
 .dropdown-content li{
     margin: 0 auto !important;
 }
@@ -67,11 +65,7 @@ a.dropdown-trigger{
     width: 80%;    
     margin: 5px 0;
 }
-/* .col.s4{
-    margin:0 !important;
-    padding: 50px !important;
-}
- */
+
 
 
 
